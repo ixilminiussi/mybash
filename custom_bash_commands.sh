@@ -8,7 +8,7 @@ function greet() {
 # basic git add commit push
 function lazygit() {
 	git add .
-	git commit -m '$1'
+	git commit -m $1
 	git push
 }
 
