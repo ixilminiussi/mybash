@@ -12,11 +12,14 @@ function lazygit() {
 	git push
 }
 
-#idle snake
+# idle snake
 alias sandworm='ternimal length=100 thickness=1,4,1,0,0 radius=6,12 gradient=0:#03045e,0.5:#0077b6,1:#90e0ef'
 
+# create meeting notes
+alias meeting='echo -e "## Meeting purpose \n## ToDo" > meeting_notes.md'
+
 # basic full upgrade
-alias update='sudo apt update && sudo apt full-upgrade && sudo apt autoremove'
+alias update='sudo apt update && sudo apt full-upgrade && sudo apt autoremove && sudo snap refresh'
 
 # Krita with tablet fix
 alias krita_='QT_XCB_TABLET_LEGACY_COORDINATES="" krita'
